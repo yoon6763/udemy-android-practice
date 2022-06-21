@@ -6,17 +6,26 @@ import android.os.Bundle
 import com.example.a7minutesworkout.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-    private val binding by lazy { ActivityMainBinding.inflate(layoutInflater) }
-
+    private var binding: ActivityMainBinding? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(binding.root)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding?.root)
 
-        binding.run {
-            flStart.setOnClickListener {
-                val intent = Intent(applicationContext, ExerciseActivity::class.java)
-                startActivity(intent)
-            }
+        binding?.flStart?.setOnClickListener {
+            val intent = Intent(this,ExerciseActivity::class.java)
+            startActivity(intent)
         }
+        binding?.flBMI?.setOnClickListener {
+            // Launching the BMI Activity
+            val intent = Intent(this, BMIActivity::class.java)
+            startActivity(intent)
+        }
+    }
+
+
+    override fun onDestroy() {
+        super.onDestroy()
+        binding = null
     }
 }
