@@ -14,9 +14,12 @@
         <entry key="..\:/workspace/udemy-android-practice/7MinutesWorkout/app/src/main/res/drawable/drawable_units_tab_selector.xml" value="0.12" />
         <entry key="..\:/workspace/udemy-android-practice/7MinutesWorkout/app/src/main/res/drawable/item_circular_color_accent_background.xml" value="0.2985" />
         <entry key="..\:/workspace/udemy-android-practice/7MinutesWorkout/app/src/main/res/drawable/item_circular_color_gray_background.xml" value="0.1975" />
+        <entry key="..\:/workspace/udemy-android-practice/7MinutesWorkout/app/src/main/res/layout/activity_bmi.xml" value="0.286231884057971" />
         <entry key="..\:/workspace/udemy-android-practice/7MinutesWorkout/app/src/main/res/layout/activity_excercise.xml" value="0.358695652173913" />
         <entry key="..\:/workspace/udemy-android-practice/7MinutesWorkout/app/src/main/res/layout/activity_exercise.xml" value="0.286231884057971" />
         <entry key="..\:/workspace/udemy-android-practice/7MinutesWorkout/app/src/main/res/layout/activity_finish.xml" value="0.11096014492753623" />
+        <entry key="..\:/workspace/udemy-android-practice/7MinutesWorkout/app/src/main/res/layout/activity_main.xml" value="0.286231884057971" />
+        <entry key="..\:/workspace/udemy-android-practice/7MinutesWorkout/app/src/main/res/layout/dialog_custom_back_confirmation.xml" value="0.286231884057971" />
         <entry key="..\:/workspace/udemy-android-practice/7MinutesWorkout/app/src/main/res/layout/item_exercise_status.xml" value="0.6" />
       </map>
     </option>
