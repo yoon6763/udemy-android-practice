@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.projemanag">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -17,6 +17,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Projemanag"
         tools:targetApi="31">
+        <activity
+            android:name=".CardDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MembersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TaskListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreateBoardActivity"
+            android:exported="false" />
         <activity
             android:name=".MyProfileActivity"
             android:exported="false" />
